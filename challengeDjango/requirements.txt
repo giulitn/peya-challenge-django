@@ -11,3 +11,7 @@ virtualenv==20.25.1
 virtualenv-clone==0.5.7
 virtualenvwrapper==6.1.0
 wheel==0.43.0
+djangorestframework
+djangorestframework-simplejwt
+requests
+PyJWT
