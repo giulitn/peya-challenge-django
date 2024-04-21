@@ -9,3 +9,9 @@ services:
       - "8000:8000"
     environment:
       - DEBUG=1
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
